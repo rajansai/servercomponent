@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cockpit.component.css']
 })
 export class CockpitComponent implements OnInit {
-  newServername = "";
-  newServerContent ="";
 
+  newServerName = '';
+  newServerContent = '';
 
   constructor() { }
 
@@ -16,21 +16,22 @@ export class CockpitComponent implements OnInit {
   }
 
   onAddServer() {
-    // this.serverElements.push({
-    //   type: 'sever',
-    //   name: this.newServername,
-    //   content : this.newServerContent
+    // this.severElements.push({
+    //   type: 'server',
+    //   name: this.newServerName,
+    //   content: this.newServerContent
+    // )};
 
-    // });
-  }
-    onAddBlueprint() {
-      // this.serverElements.push({
-      //   type: 'blueprint',
-      //   name: this.newServername,
-      //   content : this.newServerContent
-  
-      // });
+   
   }
 
+  onAddblueprint() {
+    // this.severElements.push({
+    //   type: 'blueprint',
+    //   name: this.newServerName,
+    //   content: this.newServerContent
+    // )};
+
+  }
 
 }
