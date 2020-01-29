@@ -15,23 +15,6 @@ export class CockpitComponent implements OnInit {
   ngOnInit() {
   }
 
-  onAddServer() {
-    // this.severElements.push({
-    //   type: 'server',
-    //   name: this.newServerName,
-    //   content: this.newServerContent
-    // )};
-
-   
-  }
-
-  onAddblueprint() {
-    // this.severElements.push({
-    //   type: 'blueprint',
-    //   name: this.newServerName,
-    //   content: this.newServerContent
-    // )};
-
-  }
+  
 
 }

@@ -18,11 +18,11 @@ export class AppComponent {
  
 }
 
-onBlueprintAdded() {
+onBlueprintAdded(blueprintData:{serverName:string, serverContent:string}) {
   this.severElements.push({
     type: 'blueprint',
-    name: this.newServerName,
-    content: this.newServerContent
+    name: blueprintData.serverName,
+    content: blueprintData.serverContent
   )};
 
 }
